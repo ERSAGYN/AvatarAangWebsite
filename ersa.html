@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Button Animation</title>
+</head>
+<body>
+	<div class = "main">
+		<div class = "under"><a href="https://www.instagram.com/epcako" target = "_top" class = "link">NOT VK BUT INSTAGRAM</a></div>
+		<div class = "over"></div>
+	</div>
+	<style type="text/css">
+		body
+		{
+			margin: 0;
+			height: 100vh;
+			width: 100%;
+			position: relative;
+		}
+		.main
+		{
+			width: 15%;
+			height: 10%;
+			position: absolute;
+		  	top: 0;
+		  	right: 0;
+		  	bottom: 0;
+		  	left: 0;
+		  	margin: auto;
+		  	overflow: visible;
+		}
+		.over
+		{
+			width: 100%;
+			height: 100%;
+			background-color: #4a76a8;
+			border-radius: 0px 20px 20px 20px;
+			position: absolute;
+			transform: rotate(0deg);
+		  	transition: 0.3s transform;
+		  	transform-origin: 0 0;
+		  	background-image: url(logo.png);
+		  	background-repeat: no-repeat;
+		  	background-position: center;
+		}
+		.under
+		{
+			width: 100%;
+			height: 100%;
+			background-color: #224b7a;
+			border-radius: 0px 20px 20px 20px;
+			position: absolute;
+			box-shadow: 0px 0px 10px black;
+		}
+		.main:hover
+		.over
+		{
+			transform-origin: 0 0;
+			transform: rotate(-67deg);
+			transition: 0.3s transform;
+		}
+		.under:hover
+		{
+			cursor: pointer;
+		}
+		.link
+		{
+			text-align: center;
+			font-size: 125%;
+			font-family: Focus;
+			height: 100%;
+			width: 100%;
+			line-height: 350%;
+			color: white;
+		  	position: absolute;
+		  	text-decoration: none;
+		}
+	</style>
+</body>
+</html>

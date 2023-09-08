@@ -1,0 +1,73 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.img{
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	margin-top: 10px;
+	margin-left: 15px;
+	transform: scale(1);
+	transition: 0.5s transform;
+}
+.img:hover{
+	transform: scale(1.1);
+	transition: 0.5s transform;
+	border: 3px solid white;
+}
+.iroh{
+	background-image: url(img/iroh-bg.jpg);
+	background-size: 110%;
+	color: white;
+	text-shadow: 2px 2px 2px #000;
+	font-size: 27px;
+}
+.aang{
+	background-image: url(img/aang-bg.jpg);
+	background-size: cover;
+	color: white;
+	text-shadow: 2px 2px 2px #000;
+	font-size: 27px;
+}
+.zuko{
+	background-image: url(img/zuko-bg.png);
+	background-size: cover;
+	color: white;
+	text-shadow: 2px 2px 2px #000;
+	font-size: 27px;
+}
+.katara{
+	background-image: url(img/katara-bg.jpg);
+	background-size: 140%;
+	color: white;
+	text-shadow: 2px 2px 2px #000;
+	font-size: 27px;
+}
+.toph{
+	background-image: url(img/toph-bg.png);
+	background-size: cover;
+	color: white;
+	text-shadow: 2px 2px 2px #000;
+	font-size: 27px;
+}
+.sokka{
+	background-image: url(img/sokka-bg.png);
+	background-size: cover;
+	color: white;
+	text-shadow: 2px 2px 2px #000;
+	font-size: 27px;
+}
+.azula{
+	background-image: url(img/azula-bg.png);
+	background-size: 110%;
+	color: white;
+	text-shadow: 2px 2px 2px #000;
+	font-size: 27px;
+}
+.menu{
+	background-color: orange;
+}
+.logo{
+	width: 100%;
+}
